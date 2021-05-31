@@ -21,4 +21,4 @@ ofxCvGui
 ofxSingleton
 ofxTextInputField
 
-![](https://github.com/Screen Shot.png )
+![](https://github.com/antimodular/movingHead/blob/main/Screen%20Shot.png)
