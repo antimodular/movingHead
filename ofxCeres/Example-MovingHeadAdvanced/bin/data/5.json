@@ -1,0 +1,34 @@
+{
+    "beamParameters": {
+        "Focus": 0.5
+    },
+    "calibrationParameters": {
+        "Pan distortion": "0, 1, 0",
+        "Residual": 0.0,
+        "Rotation vector": "0, -1.5708, 0",
+        "Tilt distortion": "0, 1, 0",
+        "Tilt offset": 0.0,
+        "Translation": "2.08, 0.78, 4.24"
+    },
+    "calibrationPoints": {
+        "captures": null
+    },
+    "fitParameters": {
+        "Distortion enabled": true
+    },
+    "fixtureSettings": {
+        "DMX pan polarity": 0,
+        "Pan range": "-270, 270",
+        "Tilt range": "-130, 130",
+        "dmxAddresses": {
+            "Brightness": 5,
+            "DMX Start Address": 1,
+            "Focus coarse": 6,
+            "Focus fine": 7,
+            "Pan coarse": 1,
+            "Pan fine": 2,
+            "Tilt coarse": 3,
+            "Tilt fine": 4
+        }
+    }
+}

@@ -1,0 +1,3 @@
+ofxCeres
+ofxGrabCam
+ofxGui

@@ -1,0 +1,198 @@
+{
+    "calibrationParameters": {
+        "Distortion enabled": true,
+        "Pan distortion": "3.90587e-05, 0.937145, 0.756167",
+        "Residual": 0.0,
+        "Rotation vector": "0.000716997, -3.14743, -0.00746385",
+        "Tilt distortion": "-3.4035e-05, 1.00431, 0.0747608",
+        "Tilt offset": 0.9085469245910645,
+        "Translation": "0.361594, 0.385968, 2.77458"
+    },
+    "calibrationPoints": {
+        "captures": [
+            {
+                "Color": "100, 200, 159, 255",
+                "Name": "A",
+                "Pan tilt angles": "-84.7314, 85.1782",
+                "Selected": true,
+                "Target point": "-2.27, 0.77, 2.56",
+                "timestamp": 1556713012
+            },
+            {
+                "Color": "100, 200, 159, 255",
+                "Name": "A2",
+                "Pan tilt angles": "93.5568, -86.9858",
+                "Selected": false,
+                "Target point": "-2.27, 0.77, 2.56",
+                "timestamp": 1556713012
+            },
+            {
+                "Color": "100, 200, 159, 255",
+                "Name": "B",
+                "Pan tilt angles": "-7.99637, 85.2639",
+                "Selected": true,
+                "Target point": "0, 0.81, 0",
+                "timestamp": 1556713012
+            },
+            {
+                "Color": "110, 100, 200, 255",
+                "Name": "C",
+                "Pan tilt angles": "50.3159, 88.0714",
+                "Selected": true,
+                "Target point": "3.76, 0.8, 0",
+                "timestamp": 1556713012
+            },
+            {
+                "Color": "200, 147, 100, 255",
+                "Name": "D",
+                "Pan tilt angles": "83.9273, 86.3585",
+                "Selected": true,
+                "Target point": "3.78, 0.77, 2.43",
+                "timestamp": 1556713012
+            },
+            {
+                "Color": "100, 139, 200, 255",
+                "Name": "Y",
+                "Pan tilt angles": "34.8305, 86.4924",
+                "Selected": true,
+                "Target point": "2.33, 0.81, -0",
+                "timestamp": 1556713012
+            },
+            {
+                "Color": "100, 200, 118, 255",
+                "Name": "E",
+                "Pan tilt angles": "83.9242, 61.9783",
+                "Selected": true,
+                "Target point": "3.78, 2.32, 2.43",
+                "timestamp": 1556713012
+            },
+            {
+                "Color": "100, 200, 118, 255",
+                "Name": "E2",
+                "Pan tilt angles": "-95.4785, -63.7934",
+                "Selected": true,
+                "Target point": "3.78, 2.32, 2.43",
+                "timestamp": 1556713012
+            },
+            {
+                "Color": "100, 121, 200, 255",
+                "Name": "F",
+                "Pan tilt angles": "84.0562, 99.9734",
+                "Selected": true,
+                "Target point": "3.78, 0, 2.43",
+                "timestamp": 1556713012
+            },
+            {
+                "Color": "136, 200, 100, 255",
+                "Name": "G",
+                "Pan tilt angles": "-85.0314, 57.765",
+                "Selected": true,
+                "Target point": "-2.27, 2.19, 2.56",
+                "timestamp": 1556713012
+            },
+            {
+                "Color": "100, 200, 147, 255",
+                "Name": "G2",
+                "Pan tilt angles": "93.5412, -59.5276",
+                "Selected": true,
+                "Target point": "-2.27, 2.19, 2.56",
+                "timestamp": 1557429685
+            },
+            {
+                "Color": "100, 200, 147, 255",
+                "Name": "H",
+                "Pan tilt angles": "53.5482, -88.847",
+                "Selected": true,
+                "Target point": "-2.27, 0.8, 4.67",
+                "timestamp": 1557429685
+            },
+            {
+                "Color": "100, 200, 147, 255",
+                "Name": "I",
+                "Pan tilt angles": "-13.1841, -83.0656",
+                "Selected": true,
+                "Target point": "0.79, 0.8, 4.62",
+                "timestamp": 1557429685
+            },
+            {
+                "Color": "100, 200, 147, 255",
+                "Name": "J",
+                "Pan tilt angles": "-62.9754, -89.4315",
+                "Selected": true,
+                "Target point": "3.9, 0.81, 4.62",
+                "timestamp": 1557429685
+            },
+            {
+                "Color": "100, 200, 147, 255",
+                "Name": "K",
+                "Pan tilt angles": "-62.8049, -68.2271",
+                "Selected": true,
+                "Target point": "3.9, 2.31, 4.62",
+                "timestamp": 1557429685
+            },
+            {
+                "Color": "100, 200, 147, 255",
+                "Name": "L",
+                "Pan tilt angles": "-56.7506, 72.8709",
+                "Selected": true,
+                "Target point": "-3.87, 2.27, 0",
+                "timestamp": 1557429685
+            },
+            {
+                "Color": "100, 200, 147, 255",
+                "Name": "M",
+                "Pan tilt angles": "-56.6165, 89.708",
+                "Selected": true,
+                "Target point": "-3.87, 0.79, 0",
+                "timestamp": 1557429685
+            },
+            {
+                "Color": "100, 200, 147, 255",
+                "Name": "N",
+                "Pan tilt angles": "-12.4849, -46.2712",
+                "Selected": true,
+                "Target point": "0.79, 2.41, 4.62",
+                "timestamp": 1557429685
+            },
+            {
+                "Color": "100, 200, 147, 255",
+                "Name": "O",
+                "Pan tilt angles": "53.6417, -67.6002",
+                "Selected": true,
+                "Target point": "-2.27, 2.05, 4.67",
+                "timestamp": 1557429685
+            },
+            {
+                "Color": "100, 200, 147, 255",
+                "Name": "B1",
+                "Pan tilt angles": "10.9234, -82.9965",
+                "Selected": true,
+                "Target point": "0, 0.81, 4.62",
+                "timestamp": 1557429685
+            },
+            {
+                "Color": "112, 100, 200, 255",
+                "Name": "Q",
+                "Pan tilt angles": "50.263, 65.2501",
+                "Selected": true,
+                "Target point": "3.76, 2.59, 0",
+                "timestamp": 1558117191
+            }
+        ]
+    },
+    "fixtureSettings": {
+        "DMX pan polarity": 0,
+        "Pan range": "-270, 270",
+        "Tilt range": "-135, 135",
+        "dmxAddresses": {
+            "Brightness": 5,
+            "DMX Start Address": 1,
+            "Focus coarse": 6,
+            "Focus fine": 8,
+            "Pan coarse": 1,
+            "Pan fine": 2,
+            "Tilt coarse": 3,
+            "Tilt fine": 4
+        }
+    }
+}

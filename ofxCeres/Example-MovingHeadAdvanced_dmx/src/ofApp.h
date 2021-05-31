@@ -1,0 +1,58 @@
+#pragma once
+
+#include "ofMain.h"
+#include "ofxCvGui.h"
+
+#include "MovingHead.h"
+#include "ofxDmx.h"
+
+class ofApp : public ofBaseApp{
+public:
+	void setup();
+	void update();
+	void draw();
+	void drawWorld();
+
+	void renderDMX();
+
+	void repopulateWidgets();
+
+	void load();
+	void save();
+
+	void keyPressed(int key);
+	void keyReleased(int key);
+	void mouseMoved(int x, int y );
+	void mouseDragged(int x, int y, int button);
+	void mousePressed(int x, int y, int button);
+	void mouseReleased(int x, int y, int button);
+	void mouseEntered(int x, int y);
+	void mouseExited(int x, int y);
+	void windowResized(int w, int h);
+	void dragEvent(ofDragInfo dragInfo);
+	void gotMessage(ofMessage msg);
+
+    ofParameter<bool> drawGrid{ "Draw grid", true };		
+	ofParameter<bool> drawOtherFixtures{ "Draw other fixtures", true };
+
+	map<string, shared_ptr<MovingHead>> movingHeads;
+	string selection;
+
+	ofxCvGui::Builder gui;
+	shared_ptr<ofxCvGui::Panels::Groups::Strip> stripPanel;
+	shared_ptr<ofxCvGui::Panels::World> worldPanel;
+	shared_ptr<ofxCvGui::Panels::Widgets> widgetsPanel;
+	shared_ptr<ofxCvGui::Panels::Groups::Grid> listPanelHolder;
+    
+    
+    ofxDmx dmx;
+    
+    int shutterState;
+    int dmx_focus;
+    int dmx_coarseDimmer;
+    
+    bool bFollow;
+    float targetY;
+    
+    glm::vec3 worldTargetPoint;
+};
